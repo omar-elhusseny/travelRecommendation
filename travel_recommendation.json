@@ -1,0 +1,150 @@
+{
+    "countries": [
+        {
+            "id": 1,
+            "name": "United States",
+            "cities": [
+                {
+                    "name": "New York, United States",
+                    "timeZone": "America/New_York",
+                    "imageUrl": "https://www.viaggi-usa.it/wp-content/uploads/2022/10/manhattan-new-york.webp",
+                    "description": "The city that never sleeps, known for its iconic landmarks like Times Square, Central Park, and the Statue of Liberty."
+                },
+                {
+                    "name": "San Francisco, United States",
+                    "timeZone": "America/Los_Angeles",
+                    "imageUrl": "https://assets.milestoneinternet.com/cdn-cgi/image/f=auto/hotel-nikko-san-francisco/hotelnikkosf/mainimages/golden-gate-bridge-detailpage-hero.jpg?width=600&height=403",
+                    "description": "San Francisco is a commercial, financial, and cultural center in Northern California."
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Austria",
+            "cities": [
+                {
+                    "name": "Vienna, Austria",
+                    "timeZone": "Europe/Vienna",
+                    "imageUrl": "https://www.traveloffpath.com/wp-content/uploads/2022/07/Vienna-Aerial-View.jpg",
+                    "description": "Austria's capital, known for its imperial palaces and classical music heritage."
+                },
+                {
+                    "name": "Salzburg, Austria",
+                    "timeZone": "Europe/Vienna",
+                    "imageUrl": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/01/22/16/salzburg.jpg?width=1200&height=630&fit=crop",
+                    "description": "Famous for being the birthplace of Mozart and its well-preserved baroque architecture."
+                },
+                {
+                    "name": "Hallstatt, Austria",
+                    "timeZone": "Europe/Vienna",
+                    "imageUrl": "https://ychef.files.bbci.co.uk/1280x720/p08fq4z7.jpg",
+                    "description": "A picturesque village known for its Alpine houses and ancient salt mines."
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Australia",
+            "cities": [
+                {
+                    "name": "Sydney, Australia",
+                    "timeZone": "Australia/Sydney",
+                    "imageUrl": "https://www.holidayhamster.co.uk/wp-content/uploads/Pinkish-colourful-sunrise-over-Sydney-city.jpg",
+                    "description": "A vibrant city known for the Sydney Opera House and Sydney Harbour Bridge."
+                },
+                {
+                    "name": "Melbourne, Australia",
+                    "timeZone": "Australia/Melbourne",
+                    "imageUrl": "https://www.aeccglobal.com/images/easyblog_articles/112/b2ap3_amp_8-Optimized-shutterstock_274387127.jpg",
+                    "description": "Famous for its art, food, and diverse neighborhoods."
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Japan",
+            "cities": [
+                {
+                    "name": "Tokyo, Japan",
+                    "timeZone": "Asia/Tokyo",
+                    "imageUrl": "https://www.japanrailpassnow.co.uk/wp-content/uploads/2015/12/1000x667xTemple-gate-in-Tokyo-Japan.jpg.pagespeed.ic.lncD9GcYaN.jpg",
+                    "description": "A bustling metropolis known for its cherry blossoms and modern skyline."
+                },
+                {
+                    "name": "Kyoto, Japan",
+                    "timeZone": "Asia/Tokyo",
+                    "imageUrl": "https://lp-cms-production.imgix.net/2022-03/Japan%20Kyoto%20Avigator%20Fortuner%20shutterstock_763950445%20RFC.jpg",
+                    "description": "Famous for its historic temples, gardens, and tea houses."
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Brazil",
+            "cities": [
+                {
+                    "name": "Rio de Janeiro, Brazil",
+                    "timeZone": "America/Sao_Paulo",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Cidade_Maravilhosa.jpg/800px-Cidade_Maravilhosa.jpg",
+                    "description": "Known for its stunning beaches, carnival celebrations, and iconic landmarks."
+                },
+                {
+                    "name": "São Paulo, Brazil",
+                    "timeZone": "America/Sao_Paulo",
+                    "imageUrl": "https://sites.lib.jmu.edu/windowurbanlatinamerica/files/2021/06/CENU_Sa%CC%83o_Paulo_Brasil.jpeg",
+                    "description": "A financial hub with diverse culture and vibrant nightlife."
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Canada",
+            "cities": [
+                {
+                    "name": "Toronto, Canada",
+                    "timeZone": "America/Toronto",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/CC_2022-06-18_193-Pano_%28cropped%29_01.jpg/640px-CC_2022-06-18_193-Pano_%28cropped%29_01.jpg",
+                    "description": "Known for its cultural diversity, iconic CN Tower, and vibrant arts scene."
+                },
+                {
+                    "name": "Vancouver, Canada",
+                    "timeZone": "America/Vancouver",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Concord_Pacific_Master_Plan_Area.jpg/640px-Concord_Pacific_Master_Plan_Area.jpg",
+                    "description": "A coastal city known for its stunning natural beauty."
+                }
+            ]
+        }
+    ],
+    "temples": [
+        {
+            "id": 1,
+            "name": "Angkor Wat, Cambodia",
+            "timeZone": "Asia/Phnom_Penh",
+            "imageUrl": "https://digs.net/wp-content/uploads/2023/01/Angkor-Wat-f9photos-scaled.jpg",
+            "description": "The largest religious monument in the world."
+        },
+        {
+            "id": 2,
+            "name": "Taj Mahal, India",
+            "timeZone": "Asia/Kolkata",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Taj_Mahal_%28Edited%29.jpeg/1200px-Taj_Mahal_%28Edited%29.jpeg",
+            "description": "A masterpiece of Mughal architecture."
+        }
+    ],
+    "beaches": [
+        {
+            "id": 1,
+            "name": "Bora Bora, French Polynesia",
+            "timeZone": "Pacific/Tahiti",
+            "imageUrl": "https://www.tahititourisme.ca/app/uploads/iris-images/23893/cg.v-bora-dscf2511b-hi-scaled-4-1600x800-f50_50.jpg",
+            "description": "Known for its stunning turquoise waters and luxurious overwater bungalows."
+        },
+        {
+            "id": 2,
+            "name": "Copacabana Beach, Brazil",
+            "timeZone": "America/Sao_Paulo",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Praia_de_Copacabana_-_Rio_de_Janeiro%2C_Brasil.jpg",
+            "description": "A famous beach in Rio de Janeiro with a vibrant atmosphere."
+        }
+    ]
+}

@@ -1,0 +1,331 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    /* transition: 0.7s all; */
+
+}
+
+/* General styles */
+body {
+    color: #333;
+}
+
+/* Navbar styles */
+nav {
+    background-color: #1e2b30;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav .logo img {
+    width: 50px;
+}
+
+nav .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+nav .search-container {
+    display: flex;
+    align-items: center;
+}
+
+nav .search-bar {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    width: 250px;
+}
+
+nav .search-btn,
+nav .reset-btn {
+    background-color: #00a99d;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* Home section */
+.home {
+    position: relative;
+    background: url('https://www.msccruises.fi/-/media/global-contents/destinations/ports/usa/san-francisco/cruise-to-san-francisco-usa.jpg?bc=transparent&as=1&dmc=0&iar=0&mh=1395&mw=2460&sc=0&thn=0&udi=0&hash=D702DC189BDCD4FC0E51DCB5B113FA36') no-repeat center center/cover;
+    height: 100vh;
+    color: black;
+}
+
+.home .content {
+    position: absolute;
+    top: 25%;
+    left: 13%;
+    padding: 25px;
+    width: 80%;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.6px);
+    -webkit-backdrop-filter: blur(3.6px);
+    border: 1px solid rgba(255, 255, 255, 0.42);
+}
+
+.home h1 {
+    font-size: 48px;
+    line-height: 1.2;
+}
+
+.home p {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.home .content button {
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #00a99d;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Social media links */
+.social-media-links {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.social-media-links a {
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.social-media-links a:hover{
+    color: white;
+}
+
+/* About Us section */
+.about-us {
+    padding: 100px 20px;
+    color: black;
+    background: url('https://www.pocruises.com/content/dam/po/inventory-assets/ports/NYC/NYC.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us-container {
+    width: 80%;
+}
+
+.about-us-container .content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.616);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.6px);
+    -webkit-backdrop-filter: blur(3.6px);
+    border: 1px solid rgba(255, 255, 255, 0.42);
+}
+
+.about-us-container .content h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.our-team {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    margin-top: 40px;
+    background: rgba(255, 255, 255, 0.616);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.6px);
+    -webkit-backdrop-filter: blur(3.6px);
+    border: 1px solid rgba(255, 255, 255, 0.42);
+}
+
+.our-team h2 {
+    text-transform: uppercase;
+    width: 100%;
+    margin: auto;
+}
+
+.our-team div {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.our-team div p {
+    font-size: 12px;
+}
+
+.team-title {
+    background-color: #00a99d;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: fit-content;
+    text-transform: uppercase;
+}
+
+/* Contact Us section */
+.contact-us {
+    background: url('https://viemagazine.com/wp-content/uploads/2020/01/vie-magazine-prague-czech-republic-travel-guide-hero-min.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-us .content {
+    text-align: center;
+    padding: 20px;
+    background: rgba(50, 46, 46, 0.572);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.6px);
+    -webkit-backdrop-filter: blur(3.6px);
+    border: 1px solid rgba(255, 255, 255, 0.42);
+    color: white;
+}
+
+.contact-us .content h1 {
+    text-transform: uppercase;
+}
+
+.contact-form {
+    width: 500px;
+    padding: 50px;
+    background: rgba(50, 46, 46, 0.572);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.6px);
+    -webkit-backdrop-filter: blur(3.6px);
+    border: 1px solid rgba(255, 255, 255, 0.42);
+    color: white;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #00a99d;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Results Container */
+.results {
+    position: fixed;
+    top: 15%;
+    right: 5%;
+    background-color: #ffffff;
+    width: 35%;
+    max-width: 500px;
+    min-width: 300px;
+    height: 80vh;
+    padding: 15px;
+    overflow-y: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+/* Results Inner Container */
+#results-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: stretch;
+}
+
+/* Result Card */
+.result-item {
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.208);
+    padding: 10px;
+    gap: 10px;
+}
+
+/* Image Styling */
+.result-img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Content Styling */
+.result-item-content {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.result-item-content h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.result-item-content p {
+    font-size: 0.9em;
+    color: #555;
+    line-height: 1.4;
+}
+
+.result-btn {
+    padding: 10px 15px;
+    background-color: #00a99d;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    width: 20%;
+}
